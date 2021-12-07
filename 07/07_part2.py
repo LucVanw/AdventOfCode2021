@@ -11,7 +11,7 @@ def format_file(rows):
 def consumption(crabs, position):
     fuel = 0
     for crab in crabs:
-        #We calculate the factorial of crabs movement
+        #We calculate the sim 1+2+...+x  of crabs movement
         fact=0
         for move in range(1,abs(position - crab)+1):
             fact += move 
